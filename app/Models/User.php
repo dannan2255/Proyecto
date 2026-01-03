@@ -68,7 +68,7 @@ class User extends Authenticatable
         ];
     }
 
-    // Indica a Laravel que use 'contraseniausu' para el login
+    // Indica a Laravel que use 'contraseniausu' para el login de suaurios
     public function getAuthPassword()
     {
         return $this->contraseniausu;
